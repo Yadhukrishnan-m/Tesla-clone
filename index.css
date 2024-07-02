@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "M PLUS 1", sans-serif;
+    scroll-behavior:smooth;
+}
+
+.page {
+    background-image: url(image/Homepage-Model-3-Desktop-LHD-v2.jpg);
+
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+   position: static;
+  
+}
+ .navbar{
+    height: 6vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    width: 90%;
+    align-items: center;
+    display: flex;
+    position:static;
+ }
+.tesla_logo{
+   height: 7vh;
+   width: 100px;
+   
+   padding-left: 15px;
+ 
+}
+.centernav{
+    display: flex;
+    align-items: center;
+    margin: 300px;
+    gap: 30px;
+    
+
+}
+.rightnav{
+    display: flex;
+  margin: 20px;
+ gap: 15px;
+ padding-left: 10px;
+  
+}
+.centernav a{
+    color: black;
+    text-decoration: none;
+    font-weight:450;
+}
+.centernav a:hover{
+    background-color: antiquewhite;
+    transition: 0.8s;
+    border-radius: 5px;
+
+}
+.text{
+    text-align: center;
+    height: 25vh;
+    padding-top: 1px;
+   
+}
+.text h1{
+   padding-top: 5px;
+font-size: 35px;
+
+
+}
+.text h3{
+    padding-top: 5px;
+font-size: 21px;
+font-weight: 450;
+
+}
+.text{
+    font-weight: 400;
+  
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   height:11vh ;
+ padding-top: 260px;
+  
+}
+.button a{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+width: 200px;
+text-decoration: none;
+
+}
+.left{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.right{
+    color:white;
+    background-color:black;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.right:hover{
+    background-color:#393C41;
+}
+
+
+/* second page onwords use the belo style*/
+
+.page2, .page3,.page4,.page5,.page6,.page7,.page8,.page9{
+   
+
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+   position: static;
+  
+}
+.page2{
+    background-image: url(image/Homepage-Model-Y-Desktop-Global.jpg);
+}
+ .page3{
+    background-image: url(image/Homepage-Model-X-Desktop-v2.jpg);
+ }
+ .page4{
+    background-image: url(image/Homepage-Model-S-Desktop-v2.jpg);
+ }
+.page5{
+    background-image: url(image/Homepage-Cybertruck-Desktop.jpg);
+}
+.page6{
+    background-image: url(image/Homepage-SolarPanels-01-Desktop.jpg);
+}
+.page7{
+    background-image: url(image/Homepage-SolarRoof-Desktop-Global.jpg);
+}
+.page8{
+    background-image: url(image/Homepage-Powerwall-01-Desktop.jpg);
+}
+.page9{
+    background-image: url(image/Homepage-Accessories-Desktop-NA-APAC.jpg);
+}
+.text2 ,.text2models ,.text2solarroof{
+    text-align: center;
+    height: 25vh;
+    padding-top: 50px;
+     font-weight: 400;
+}
+.text2 h1{
+   padding-top: 5px;
+font-size: 35px;
+
+
+}
+.text2 h3{
+    padding-top: 5px;
+font-size: 21px;
+font-weight: 450;
+
+}
+.text2 p{
+    padding-top: 5px;
+    
+    font-size: 13px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   height:11vh ;
+   padding-top: 265px;
+ 
+  
+}
+.button2 a {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+width: 200px;
+text-decoration: none;
+
+}
+.left2{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.right2{
+    color:white;
+    background-color:black;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.right2:hover{
+    background-color:#393C41;
+}
+/* models text */
+.text2models h1{
+    padding-top: 5px;
+ font-size: 35px;
+ color: white;
+ 
+ }
+ .text2models h3{
+     padding-top: 5px;
+ font-size: 21px;
+ font-weight: 450;
+color: white;
+ 
+ }
+ .text2models p{
+    padding-top: 5px;
+    color: white;
+    font-size: 13px;
+ }
+ /* syber truck button*/
+ .button2truck{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   height:11vh ;
+   padding-top: 365px;
+ }
+ .button2truck a {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+width: 200px;
+text-decoration: none;
+ }
+ .lefttruck{
+    color:#939497;
+    background-color: #101011;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.righttruck{
+    color:#939497;
+    background-color:#101011;
+    border-radius: 5px;
+    font-weight: 440;
+    font-size: 15px;
+    padding:9px 30px ;
+}
+.righttruck:hover{
+    background-color:#393C41;
+}
+.lefttruck:hover {
+    background-color: #393C42;
+}
+/* solar pannels*/
+.solarstyle{
+    
+    text-align: center;
+    height: 25vh;
+    padding-top: 50px;
+    font-weight: 400;
+}
+.solarstyle h1{
+    color: white;
+    font-size: 35px;
+
+    
+}
+.solarstyle a{
+    color: white;
+}
+/* solar roofs*/
+.text2solarroof h1{
+    font-size: 35px;
+
+}
+.text2solarroof{
+    font-size: 13px;
+}
+/* end list*/
+
+.end{
+    height: 60vh;
+    background-color: black;
+ 
+    width: 100%; 
+   
+    
+}
+.endlist  li p,a{
+    color: white;
+
+}
+.endlist {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.endfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+.endfooter ul li {
+    text-align: center;
+    font-size: 12px;
+}
+/* end navihation bar*/
+.endnav{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    gap: 20px;
+}
+.endnav a{
+    font-size:11px ;
+text-decoration: none;
+}
+
